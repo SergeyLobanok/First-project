@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0px;
@@ -56,6 +60,9 @@ header nav li a {
   text-decoration: none;
   line-height: 60px;
   color: #000;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  padding: 0 10px;
 }
 
 header nav li a:hover {
@@ -70,4 +77,34 @@ header nav li a:hover {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.main_image_container{
+  float: left;
+  top: 271px;
+}
+
+.main_image_container img{
+  width: 357px;
+  height: 233px;
+}
+
+.content{
+  width: 550px;
+  height: 500px;
+  float: right;
+}
+
+.content h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  padding-bottom: 60px;
+}
+
+.content p {
+  width: 540px;
+  height: 67px;
+  color: #727272;
 }
