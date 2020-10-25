@@ -31,7 +31,7 @@ body {
 }
 header {
   padding-top: 55px;
-  height: 60px;
+  height: 115px;
 }
 header nav {
   margin: 0;
@@ -70,7 +70,9 @@ header nav li a:hover {
 }
 
 .hero {
-  padding-top: 115px;
+  padding-top:115px;
+  padding-bottom: 140px;
+  padding-bottom:171px;
 }
 
 .hero > .conteiner {
@@ -81,7 +83,9 @@ header nav li a:hover {
 
 .main_image_container{
   float: left;
-  top: 271px;
+  width:500px;
+  margin:0 auto;
+  padding-top:50px;
 }
 
 .main_image_container img{
@@ -91,12 +95,13 @@ header nav li a:hover {
 
 .content{
   width: 550px;
-  height: 500px;
   float: right;
+  margin:0 auto;
 }
 
 .content h1{
   font-family: "Roboto", sans-serif;
+  margin:0 auto;
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
@@ -106,5 +111,51 @@ header nav li a:hover {
 .content p {
   width: 540px;
   height: 67px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #727272;
+}
+
+.content a{
+  width: 225px;
+  display: inline-block;
+  height: 65px;
+  line-height: 65px;
+  background-color: #34547A;
+  text-decoration: none;
+  text-align:center;
+  color:white;
+  padding: 0 41px;
+  margin-bottom:171px;
+}
+
+.about_myself{
+  text-align: center;
+  width: 540px;
+  height: 147px;
+  margin:0 auto ;
+  padding-left:690px;  
+  padding-right:690px;
+}
+
+.about_myself h2{
+  width: 540px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  margin-top: 115px;
+}
+
+.about_myself p{
+  width: 540px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
   color: #727272;
 }
