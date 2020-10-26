@@ -134,8 +134,6 @@ header nav li a:hover {
   width: 540px;
   height: 147px;
   margin:0 auto ;
-  padding-left:690px;  
-  padding-right:690px;
 }
 
 .about_myself h2{
@@ -158,4 +156,15 @@ header nav li a:hover {
   line-height: 26px;
   text-align: center;
   color: #727272;
+}
+
+.numbers{
+  width: 1200px;
+  height:250px;
+  background: #34547A;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
 }
