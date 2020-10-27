@@ -70,73 +70,72 @@ header nav li a:hover {
 }
 
 .hero {
-  padding-top:115px;
+  padding-top: 115px;
   padding-bottom: 140px;
-  padding-bottom:171px;
+  padding-bottom: 171px;
 }
 
 .hero > .conteiner {
+  margin: 0 auto;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.main_image_container{
-  float: left;
-  width:500px;
-  margin:0 auto;
-  padding-top:50px;
+.main_image_container {
+  width: 500px;
+  display: inline-block;
 }
 
-.main_image_container img{
+.main_image_container img {
   width: 357px;
-  height: 233px;
 }
 
-.content{
-  width: 550px;
+.content {
+  width: 540px;
   float: right;
-  margin:0 auto;
 }
 
-.content h1{
+.content h1 {
   font-family: "Roboto", sans-serif;
-  margin:0 auto;
   font-weight: 500;
+  margin-top: -30px;
   font-size: 48px;
   line-height: 79px;
-  padding-bottom: 60px;
 }
 
 .content p {
   width: 540px;
   height: 67px;
+  font-size: 16px;
+  line-height: 26px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #727272;
 }
 
-.content a{
+.content a {
   width: 225px;
   display: inline-block;
   height: 65px;
   line-height: 65px;
-  background-color: #34547A;
+  background-color: #34547a;
   text-decoration: none;
-  text-align:center;
-  color:white;
+  text-align: center;
+  color: white;
   padding: 0 41px;
-  margin-bottom:171px;
+  margin-bottom: 171px;
+  margin-top: 60px;
 }
 
-.about_myself{
+.about_myself {
   text-align: center;
   width: 540px;
   height: 147px;
-  margin:0 auto ;
+  margin: 0 auto;
 }
 
-.about_myself h2{
+.about_myself h2 {
   width: 540px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -147,7 +146,7 @@ header nav li a:hover {
   margin-top: 115px;
 }
 
-.about_myself p{
+.about_myself p {
   width: 540px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -158,25 +157,63 @@ header nav li a:hover {
   color: #727272;
 }
 
-.numbers{
-  width: 1200px;
-  height:250px;
-  background: #34547A;
+.numbers {
+  height: 250px;
+  background: #34547a;
   padding-left: 40px;
   padding-right: 40px;
   margin-top: 100px;
-  position: absolute;
-  width: 100%;
 }
 
-.img_group{
+.img_group {
   width: 50px;
   height: 50px;
-  padding-top:100px;
-  padding-bottom:100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-right: 140px;
 }
 
-.conent_2{
+.conent_2 {
   float: left;
+}
+
+.project-section {
+  font-size: 0;
+  margin-top: 2994px;
+  width: 100%;
+}
+
+.project {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project .project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgb(52, 84, 122, 0.8),
+    rgb(52, 84, 122, 0.8)
+  );
+  transition: opacity.5s;
+}
+
+.project .project-overlay:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .project {
+    width: 100%;
+  }
 }
