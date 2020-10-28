@@ -158,28 +158,69 @@ header nav li a:hover {
 }
 
 .numbers {
+  width: 100%;
   height: 250px;
   background: #34547a;
   padding-left: 40px;
   padding-right: 40px;
   margin-top: 100px;
+  text-align: center;
+}
+.conteiner_2{
+  display: inline-block;
+  width: 140px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .img_group {
+  display: inline-block;
   width: 50px;
-  height: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-right: 140px;
+  padding-right: 40px;
 }
 
-.conent_2 {
-  float: left;
+.img_group img{
+  width: 50px;
+}
+
+.content_2 {
+  width: 75px;
+  float: right;
+  padding-top: 70px;
+  padding-bottom: 130px;
+  padding-right: 50px;
+}
+
+.content_2 h3{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+  width: 36px;
+  height: 19px;
+  padding-top: 10px;
+}
+
+.content_2 p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 71px;
+  height: 15px;
+  color: #FFFFFF;
 }
 
 .project-section {
   font-size: 0;
-  margin-top: 2994px;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -216,4 +257,99 @@ header nav li a:hover {
   .project {
     width: 100%;
   }
+}
+
+
+.skills{
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.conteiner_3{
+  padding-top: 100px;
+}
+
+.guy {
+  width: 555px;
+  display: inline-block;
+  float: right;
+}
+
+.guy img{
+  width: 100%;
+}
+
+.content_3{
+  width: 445px;
+  height: 257px;
+}
+
+.content_3 h2{
+ padding-top: 35px;
+}
+
+.content_3 p {
+  height: 15px;
+  float: left;
+  padding-top: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+
+hr{
+  margin-top:30px;
+  float: left;
+  width: 400px;
+  height: 4px;
+  background: #34547A;
+  transform: rotate(-0.06deg);
+}
+
+.how-i-work{
+ background: #EEEFF1;
+ height:1000px;
+ margin-top:250px;
+}
+
+.conteiner_4{
+  text-align: center;
+
+  position: relative;
+}
+
+
+.wrap{
+  width:700px;
+  text-align: center;
+  margin: 0 auto;
+}
+ 
+.wrap h2{
+  padding-top: 100px;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.wrap p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  text-align: center;
+}
+
+.conteiner_4 img{
+  width: 1110px;
 }
