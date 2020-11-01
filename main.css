@@ -220,7 +220,7 @@ header nav li a:hover {
 
 .project-section {
   font-size: 0;
-  margin-top: 10px;
+  margin-top: 105px;
   width: 100%;
 }
 
@@ -352,4 +352,128 @@ hr{
 
 .conteiner_4 img{
   width: 1110px;
+}
+
+.Mickrosoft{
+  width:100%;
+  background-color: #E5E5E5;
+  text-align: center;
+}
+.Mickrosoft img{
+  width: 255px;
+  padding-right: 30px;
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.form{
+  width: 100%;
+  background-color: #EEEFF1;
+  text-align: center;
+}
+
+.form .description{
+  width: 540px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.form .description h2{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.form .description p{
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.form_inputs{
+  width: 540px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.form_inputs input{
+  width:255px;
+  height: 50px;
+}
+
+.f{
+  margin-right:15px;
+  margin-bottom:15px;
+}
+
+.f2{
+  margin-left:15px;
+  margin-bottom:15px;
+}
+
+.form_inputs textarea{
+  width:540px;
+}
+
+.form a{
+  margin: 0 auto;
+  padding-top: 50px;
+  color:black;  
+  display: inline-block;
+  width: 190px;
+  height: 55px;
+  line-height: 55px;
+  background-color: #34547a;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 0 41px;
+  margin-bottom: 171px;
+  margin-top: 60px;
+}
+
+footer{
+  width: 100%;
+  height: 150px;
+  background: #34547A;
+}
+
+.footer{
+  padding-top:50px;
+  padding-left:406px;
+  float: left;
+}
+
+footer h3{
+  color:white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+footer p{
+  color:white;
+}
+
+.footer_buttons{
+  display: inline-block;
+  width: 175px;
+  float: right;
+  line-height: 150px;
+}
+
+.footer_buttons img{
+  width:43px;
+  height: 22,82px;
+  padding-right:22px;
 }
